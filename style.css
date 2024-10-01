@@ -8,7 +8,8 @@
 /* Estilo del body */
 body {
   font-family: "Arial", sans-serif;
-  background: linear-gradient(to bottom right, #7f00ff, #e100ff);
+  /*background: linear-gradient(to bottom right, #7f00ff, #e100ff );*/
+  background-color: #e100ff;
   color: white;
   display: flex;
   justify-content: center;
@@ -323,6 +324,12 @@ footer {
       width: 100%;
       padding: 10px;
     }
+
+    #sobreNosotros article {
+      display: flex;
+      flex-direction: column;
+    }
+
     #testimoniales article {
       display: flex;
       flex-direction: column;
